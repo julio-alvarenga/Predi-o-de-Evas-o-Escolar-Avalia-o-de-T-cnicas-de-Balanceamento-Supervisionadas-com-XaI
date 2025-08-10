@@ -14,12 +14,14 @@ Código do artigo **"Predição de Evasão Escolar: Avaliação de Técnicas de 
 
 ### Instalar dependências:
 ```bash
-pip install -r requirements.txt
+!pip install numpy==1.24.4
+!pip install scikit-learn==1.4.2
+!pip install imbalanced-learn==0.11.0 lime==0.2.0.1 xgboost==1.7.6
 ```
 
 ### Executar o notebook:
 ```bash
-jupyter notebook student_dropout_prediction.ipynb
+jupyter notebook code.ipynb
 ```
 
 ##  Arquivos
