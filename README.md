@@ -17,37 +17,31 @@ Código do artigo **"Predição de Evasão Escolar: Avaliação de Técnicas de 
 pip install -r requirements.txt
 ```
 
-### Executar:
+### Executar o notebook:
 ```bash
-python main.py
+jupyter notebook student_dropout_prediction.ipynb
 ```
 
-##  O que tem aqui
+##  Arquivos
 
-- `main.py` - Script principal que executa todos os experimentos
-- `data_preprocessing.py` - Limpeza e preparação dos dados
-- `models.py` - Random Forest e XGBoost com técnicas de balanceamento
-- `lime_analysis.py` - Análise de explicabilidade
+- `student_dropout_prediction.ipynb` - **Notebook principal com todo o código**
 - `requirements.txt` - Bibliotecas necessárias
+- `results/` - Figuras e resultados gerados
 
-##  Sobre o Estudo
+##  O que o Notebook Faz
 
-Utilizamos dados de 4.424 estudantes do Instituto Politécnico de Portalegre (Portugal) para comparar diferentes técnicas de balanceamento:
+1. **Carrega e limpa os dados** (4.424 estudantes do IPP Portugal)
+2. **Aplica técnicas de balanceamento**: SMOTE, SMOTE Tomek, SMOTE ENN, Under-sampling
+3. **Treina modelos**: Random Forest e XGBoost
+4. **Avalia performance** com múltiplas métricas
+5. **Gera explicações LIME** dos fatores de risco/proteção
+6. **Cria todas as visualizações** do artigo
 
-- SMOTE
-- SMOTE + Tomek Links  
-- SMOTE + ENN
-- Under-sampling
+##  Principal Descoberta
 
-**Principal descoberta**: Desempenho acadêmico nos primeiros semestres é o fator mais importante para predizer evasão.
+O **desempenho acadêmico nos primeiros semestres** é o fator mais importante para predizer evasão escolar.
 
-##  Autores
 
-**Julio Cesar Nunes Alvarenga** & **Cassius Zanetti Resende**  
-Instituto Federal do Espírito Santo (IFES)
 
-## 📄 Como Citar
 
-```bibtex
-
- **Contato**: juliocesar.alvarenga@hotmail.com
+📧 **Contato**: juliocesar.alvarenga@hotmail.com
