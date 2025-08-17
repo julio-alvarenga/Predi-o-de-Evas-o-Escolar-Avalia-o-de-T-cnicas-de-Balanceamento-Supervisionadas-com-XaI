@@ -21,7 +21,7 @@ Código do artigo **"Predição de Evasão Escolar: Avaliação de Técnicas de 
 
 ### Executar o notebook:
 ```bash
-jupyter notebook code.ipynb
+Codigo.ipynb
 ```
 
 ##  Arquivos
