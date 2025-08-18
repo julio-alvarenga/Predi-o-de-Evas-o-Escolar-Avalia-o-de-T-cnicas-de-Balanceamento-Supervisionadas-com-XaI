@@ -29,7 +29,7 @@ Codigo.ipynb
 - `Codigo.ipynb` - **Notebook principal com todo o código**
 - `requirements.txt` - Bibliotecas necessárias
 - `dataset.csv/` - Dataset utilizado
-- `results/` - Figuras e resultados gerados
+- `Resultados/` - Figuras e resultados gerados
 
 ##  O que o Notebook Faz
 
